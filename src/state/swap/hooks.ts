@@ -295,7 +295,7 @@ export function useDefaultsFromURLSearch():
   return result
 }
 
-const USDT_TO_TX8_RATE = '200'
+const USDT_TO_TX8_RATE = '25000'
 
 export const useSwapInfo = (): { inputAmount?: CurrencyAmount; outputAmount?: CurrencyAmount } => {
   const {
